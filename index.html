@@ -5,70 +5,210 @@
     <meta name="My website" content="This is my website with a description of myself, skills and my hobbies.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Mark Müller | Software Engineer</title>
   </head>
   <body>
-    <div class="container">
+
+    <nav>
+      <h1>MARK MÜLLER</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <section class="hero" id="about">
       <div>
-        <h1>Hi, my name is Mark!</h1>
+        <img
+          src="images/Profile/Mark.jpeg"
+          alt="My profile pic"
+          loading="lazy"
+          class="hero-img"
+          id="profile"
+        />
       </div>
-      <div>
-        <img src="images/Mark.jpeg" alt="My profile pic" id="profile">
+
+      <div class="bio animate__animated animate__shakeX">
+        <h1 class="bio-title">About Me</h1>
+        <br>
+        <p>Hi, my name is <strong>Mark</strong>!</p>
+        <br>
+        <p class="bio-text">I am a Software Engineer</p>
       </div>
-      <div>
-        <p>I am a Software Engineer</p>
+    </section>
+
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <br>
+        <p>Dynamic professional with a solid background in talent acquisition and business development, captivated by the world of software engineering during my experience interviewing technical candidates and building engineering teams. Adept at mentoring, operations management, and sales, I am embarking on a career transition to leverage my skills in the field of software engineering. Eager to contribute my new skills to deliver impactful and innovative digital solutions.</p>
+        <br>
+        <p>Outside of my professional life, I have a passion for football. I have been playing for the last 22 years and am currently the captain of my local team in Berlin Friedriechsain</p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Tech Stack</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="images/programming logos/html.png" alt="html logo" loading='lazy' class="icon icon-card">
+          <img src="images/programming logos/css3.png" alt="css logo" loading='lazy' class="icon icon-card">
+          <img src="images/programming logos/javascript.png" alt="javascript logo"loading='lazy' class="icon icon-card">
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img src="images/programming logos/ruby.png" alt="ruby logo" loading='lazy' class="icon icon-card">
+          <img src="images/programming logos/rubyonrails.png" alt="rubyonrails logo" loading='lazy' class="icon icon-card">
+          <img src="images/programming logos/python.png" alt="python logo" loading='lazy' class="icon icon-card">
+        </div>
       </div>
-      <div>
-        <a class="button" href="mailto:mark.muller.w@gmail.com">Contact</a>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="images/Apps/Screenshot 2023-07-27 at 17.54.23.png"
+            alt="Greenpath"
+            loading="lazy"
+            class="project-pic"
+          />
+          <br>
+          <h3 class="project-title">Greenpath</h3>
+          <br>
+          <p class="project-details">
+            Discover eco-friendly habits, track your carbon footprint, and make a positive impact on the planet with our innovative app.
+            Join a community of like-minded individuals and embark on challenges to reduce your CO2 emissions.
+            Start your sustainable journey today!
+          </p>
+          <br>
+          <a href="https://greenpath.herokuapp.com/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/netflixClone.png"
+            alt="Friend-it"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Friend-it</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/greenyEarth.png"
+            alt="Skillway"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Skillway</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
       </div>
+    </section>
+
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
     </div>
 
-    <div class="container">
-      <h2>My Tech stack</h2>
-      <div>
-        <h3>Frontend</h3>
-        <ul class="list-inline">
-          <li><img src="images/programming logos/html.png" alt="html logo" class="logo"></li>
-          <li><img src="images/programming logos/css3.png" alt="css logo" class="logo"></li>
-          <li><img src="images/programming logos/javascript.png" alt="javascript logo" class="logo"></li>
-        </ul>
-        <h3>Backend</h3>
-        <ul class="list-inline">
-          <li><img src="images/programming logos/ruby.png" alt="ruby logo" class="logo"></li>
-          <li><img src="images/programming logos/rubyonrails.png" alt="rubyonrails logo" class="logo"></li>
-          <li><img src="images/programming logos/python.png" alt="python logo" class="logo"></li>
-        </ul>
+    <section class="media" id="media">
+      <div class="container">
+        <div>
+          <a class="button" href="mailto:mark.muller.w@gmail.com">Contact</a>
+        </div>
+        <div class="logos-blue">
+          <h2>Follow Me</h2>
+          <ul class="list-inline">
+            <li>
+              <a class="socials" href="https://www.instagram.com/marko_polow/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a class="socials" href="https://www.linkedin.com/in/markmuller-engineer/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a class="socials" href="https://twitter.com/markmullerw">
+                <i class="fab fa-twitter" target="_blank"></i>
+              </a>
+            </li>
+            <li>
+              <a class="socials" href="https://github.com/Marko-polo-code" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container">
-      <div class="logos-blue">
-        <h2>Follow Me</h2>
-        <ul class="list-inline">
-          <li>
-            <a class="socials" href="https://www.instagram.com/marko_polow/" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a class="socials" href="https://www.linkedin.com/in/markmuller-engineer/" target="_blank">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li>
-            <a class="socials" href="https://twitter.com/markmullerw">
-              <i class="fab fa-twitter" target="_blank"></i>
-            </a>
-          </li>
-          <li>
-            <a class="socials" href="https://github.com/Marko-polo-code" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <script src="assets/js/app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
 <!-- end of file -->

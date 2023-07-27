@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import 'navbar.css';
+@import 'skills.css';
+@import 'hero.css';
+@import 'more-about-me.css';
+@import 'project.css';
+@import 'socials.css';
+
+/* Variables */
+:root {
+  --font-family: Courier, monospace;
+  --normal-font: 400;
+  --font-size: large;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --background-color: rgb(236, 235, 228);
+  --primary-color: rgb(28, 28, 28);
+  --secondary-color: #ff7235;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --line-height: 50px;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+
+/* bottom to fix */
+
+#profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.container {
+  background-color: rgb(218, 221, 216);
+  width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.logos-blue {
+  background-color: rgb(218, 221, 216);
+}
+
+.socials {
+  color: rgb(69, 123, 157);
+  font-weight: 50px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  padding: 0px;
+  font-size: 50px;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
+.socials:hover {
+  color: rgb(69, 123, 157, 0.6);
+  transition-duration: 0.4s;
+}
+
+.button {
+  background-color: rgb(193, 73, 83);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 3px, 3px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: rgb(193, 73, 83, 0.6);
+  color: white;
+}
