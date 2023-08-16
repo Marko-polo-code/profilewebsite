@@ -31,6 +31,7 @@ nav ul {
 
 nav ul li {
   font-weight: var(--bold-font);
+  font-size: 25px;
 }
 
 .burger-menu {

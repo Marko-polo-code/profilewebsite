@@ -1,6 +1,8 @@
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  height: 600px;
+  margin-top: 2rem;
 }
 
 .more-about h2 {
