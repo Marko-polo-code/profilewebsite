@@ -14,3 +14,9 @@
   line-height: var(--line-height);
   padding: 0.4rem;
 }
+
+.more-about li {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+  font-size: 20px;
+}
