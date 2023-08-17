@@ -64,6 +64,14 @@ nav ul li {
     margin: 8px;
   }
 
+  nav ul li:hover {
+    border-bottom: none;
+  }
+
+  nav ul li a:hover {
+    color: var(--primary-color);
+  }
+
   .burger-menu {
     display: block;
   }
