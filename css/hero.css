@@ -1,5 +1,6 @@
 .hero {
   height: 600px;
+  padding: 150px 0px;
   display: flex;
   align-items: center;
   justify-content: center;

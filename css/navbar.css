@@ -7,7 +7,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
+  background-color: white
+  ;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -50,7 +51,7 @@ nav ul li {
 
   nav ul {
     position: fixed;
-    background-color: var(--bg-color);
+    background-color: white;
     flex-direction: column;
     top: 86px;
     left: 10%;
