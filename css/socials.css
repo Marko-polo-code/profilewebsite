@@ -6,7 +6,6 @@
   bottom: 50%;
 }
 
-.socicon {
-  width: 2rem;
-  height: 2rem;
+.fa-brands {
+  font-size: 30px;
 }
