@@ -28,3 +28,19 @@
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .hero img {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  .bio {
+    width: 20rem;
+  }
+};
