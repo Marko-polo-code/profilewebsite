@@ -1,7 +1,7 @@
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
-  height: 600px;
+  height: 100%;
   margin-top: 2rem;
 }
 
@@ -13,10 +13,15 @@
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
+  margin-bottom: var(--bottom-margin);
 }
 
 .more-about h3 {
   text-align: center;
+  margin-bottom: var(--bottom-margin);
+}
+
+.more-about ul {
   margin-bottom: var(--bottom-margin);
 }
 

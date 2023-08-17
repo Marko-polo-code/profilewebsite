@@ -27,3 +27,10 @@
   padding: 20px;
   margin: 10px;
 }
+
+@media screen and (max-width: 720px) {
+  .icon {
+    width: 5.875rem;
+    height: 5.25rem;
+  }
+}
