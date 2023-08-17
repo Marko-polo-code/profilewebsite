@@ -42,3 +42,33 @@ nav ul li {
   cursor: pointer;
   display: none;
 }
+
+@media (max-width: 768px) {
+  nav {
+    padding: 1.5rem 1.5rem;
+  }
+
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+
+  nav ul li {
+    margin: 8px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+}
