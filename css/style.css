@@ -62,6 +62,19 @@ footer {
   margin: 2rem 0 0;
 }
 
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.up-arrow {
+  width: 5rem;
+  height: 5rem;
+}
+
 
 /* bottom to fix */
 
