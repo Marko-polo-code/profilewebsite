@@ -29,7 +29,7 @@
   padding: 0.3rem 0;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hero {
     flex-direction: column;
     gap: 1.5rem;
@@ -42,5 +42,9 @@
 
   .bio {
     width: 20rem;
+  }
+
+  .bio h1 {
+    text-align: center;
   }
 };

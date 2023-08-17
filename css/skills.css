@@ -29,8 +29,12 @@
 }
 
 @media screen and (max-width: 720px) {
+  .skills {
+    height: 100%;
+  }
+
   .icon {
-    width: 5.875rem;
-    height: 5.25rem;
+    width: 10rem;
+    height: 10rem;
   }
 }

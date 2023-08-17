@@ -2,7 +2,8 @@
   background-color: var(--bg-color);
   padding: 32px 0;
   margin-top: 2rem;
-  height: 600px;
+  min-height: 600px;
+  height: 100%;
 }
 
 .project-pic {
@@ -48,5 +49,11 @@
 }
 
 @media screen and (max-width: 720px) {
-  
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .project-container {
+    width: 20.875rem;
+  }
 }

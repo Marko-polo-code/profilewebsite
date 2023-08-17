@@ -15,3 +15,9 @@
   border-radius: 5px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
 }
+
+@media screen and (max-width: 720px) {
+  .contact-form-container {
+    max-width: 23.75rem;
+  }
+}
