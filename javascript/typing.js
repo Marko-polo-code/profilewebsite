@@ -1,7 +1,7 @@
 const textElement = document.getElementById('changingText');
 const newTexts = [
-  "I am a Fullstack engineer",
-  "I make websites and apps"
+  "I am a Fullstack engineer.",
+  "I make websites and apps.",
 ];
 let currentIndex = 0;
 let charIndex = 0;
