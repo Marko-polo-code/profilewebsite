@@ -19,7 +19,7 @@ function typeText() {
     charIndex--;
   } else if (!isDeleting) {
     isDeleting = true;
-    delay = 2000; // Pause before deleting
+    delay = 1000; // Pause before deleting
   } else {
     isDeleting = false;
     delay = 1000; // Pause before next typing
