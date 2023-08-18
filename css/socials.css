@@ -1,4 +1,5 @@
 .socials {
+  color: rgb(69, 123, 157);
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -6,6 +7,12 @@
   bottom: 50%;
 }
 
+.socials:hover {
+  color: rgb(69, 123, 157, 0.6);
+  transition-duration: 0.4s;
+}
+
 .fa-brands {
   font-size: 30px;
+  margin-bottom: 15px;
 }
