@@ -14,7 +14,7 @@ function typeText() {
   if (!isDeleting && charIndex < currentText.length) {
     textElement.textContent = currentText.slice(0, charIndex + 1);
     charIndex++;
-  } else if (isDeleting && charIndex >= 0) {
+  } else if (isDeleting && charIndex >= 1) {
     textElement.textContent = currentText.slice(0, charIndex);
     charIndex--;
   } else if (!isDeleting) {
