@@ -6,6 +6,7 @@
 @import 'project.css';
 @import 'socials.css';
 @import 'contact.css';
+@import 'black-theme.css';
 
 /* Variables */
 :root {
@@ -61,11 +62,6 @@ footer {
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
-}
-
-.black-theme {
-  color: #fff; /* Text color for the black theme */
-  background-color: #000; /* Background color for the black theme */
 }
 
 .scroll-up {

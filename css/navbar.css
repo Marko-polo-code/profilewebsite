@@ -7,24 +7,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: white;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.black-theme .nav {
-  color: #fff; /* Text color for the black theme */
-  background-color: #000; /* Background color for the black theme */
-}
-
-nav h1 {
-  color: var(--primary-color);
-}
-
-nav a {
-  color: var(--primary-color);
-  transition: var(--transition);
-}
 nav a:hover {
+  transition: var(--transition);
   color: var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
 }
