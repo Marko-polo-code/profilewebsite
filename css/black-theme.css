@@ -8,8 +8,10 @@
   background-color: var(--secondary-background-color); /* Background color for the black theme */
 }
 
-.black-theme .a {
-  color: var(--second-primary-color);
+.black-theme .nav-link:hover {
+  transition: var(--transition);
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 .black-theme .projects {
@@ -25,6 +27,14 @@
   color: var(--second-primary-color);
 }
 
+.black-theme .project-link:hover {
+  color: var(--secondary-color);
+}
+
 .black-theme .fa-brands {
   color: var(--second-primary-color);
+}
+
+.black-theme .fa-brands:hover {
+  color: var(--secondary-color);
 }
