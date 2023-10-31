@@ -3,7 +3,7 @@
   background-color: var(--primary-color); /* Background color for the black theme */
 }
 
-.black-theme .nav {
+.black-theme .nav-link {
   color: var(--secondary-primary-color); /* Text color for the black theme */
   background-color: var(--secondary-background-color); /* Background color for the black theme */
 }
@@ -13,5 +13,18 @@
 }
 
 .black-theme .projects {
-  color: var(--primary-color);
+  color: var(--second-primary-color);
+}
+
+.black-theme .project-card {
+  background-color: var(--primary-color);
+  box-shadow: 0 3px 10px var(--primary-shadow);
+}
+
+.black-theme .project-link {
+  color: var(--second-primary-color);
+}
+
+.black-theme .fa-brands {
+  color: var(--second-primary-color);
 }
