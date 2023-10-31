@@ -38,3 +38,11 @@
 .black-theme .fa-brands:hover {
   color: var(--secondary-color);
 }
+
+.black-theme .burger-menu {
+  color: var(--second-primary-color);
+}
+
+.black-theme .navigation {
+  background-color: var(--primary-color);
+}
