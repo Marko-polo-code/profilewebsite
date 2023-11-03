@@ -9,6 +9,7 @@ function greeting() {
     "Salam, nama saya Mark!",
     "こんにちは、私の名前はMarkです!",
     "السلام عليكم، اسمي مارك!",
+    "Kia ora, ko Mark toku ingoa",
     "Hi, my name is Mark!"
   ];
   const greetingElement = document.getElementById("greeting");
