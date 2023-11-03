@@ -13,7 +13,7 @@
   margin: 0 auto;
   padding: 0.938rem;
   border-radius: 5px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 3px 10px var(--primary-shadow);
 }
 
 @media screen and (max-width: 720px) {
