@@ -16,10 +16,12 @@
   --bold-font: 700;
   --bolder-font: 900;
   --primary-color: rgb(28, 28, 28);
+  --third-primary-color: #fff;
   --second-primary-color: rgb(236, 235, 228);
   --secondary-color: #ff7235;
   --background-color: rgb(236, 235, 228);
   --second-background-color: rgb(28, 28, 28);
+  --third-background-color: #fff;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --line-height: 50px;

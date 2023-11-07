@@ -3,8 +3,9 @@
   background-color: var(--primary-color); /* Background color for the black theme */
 }
 
-.black-theme .nav {
+.black-theme nav {
   box-shadow: 0 3px 10px var(--primary-shadow);
+  background-color: var(--primary-color);
 }
 
 .black-theme .nav-link {
