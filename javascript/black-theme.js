@@ -1,5 +1,5 @@
 const html = document.querySelector("html");
-let currentTheme = "black-theme";
+let currentTheme = "white-theme";
 
 function toggleTheme() {
   if (html.classList.contains("black-theme")) {

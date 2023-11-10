@@ -21,11 +21,8 @@ function randomRGB() {
 }
 
 // Function to update the canvas background color based on the current theme
-function updateCanvasBackgroundColor() {
-  // Get the canvas element
-  const canvas = document.querySelector('canvas');
-  const ctx = canvas.getContext('2d');
 
+function updateCanvasBackgroundColor() {
   // Set the canvas background color based on the current theme
   ctx.fillStyle = currentTheme === "black-theme" ? 'rgb(28, 28, 28)' : '#fff';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -88,7 +85,7 @@ class Ball {
 
 const balls = [];
 
-while (balls.length < 25) {
+while (balls.length < 30) {
    const size = random(10,20);
    const ball = new Ball(
       // ball position always drawn at least one ball width
