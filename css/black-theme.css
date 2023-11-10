@@ -19,6 +19,10 @@
   border-bottom: 2px solid var(--secondary-color);
 }
 
+.black-theme .bio {
+  background-color: var(--primary-color);
+}
+
 .black-theme .projects {
   color: var(--second-primary-color);
 }

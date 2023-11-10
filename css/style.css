@@ -16,8 +16,8 @@
   --bold-font: 700;
   --bolder-font: 900;
   --primary-color: rgb(28, 28, 28);
-  --third-primary-color: #fff;
   --second-primary-color: rgb(236, 235, 228);
+  --third-primary-color: #fff;
   --secondary-color: #ff7235;
   --background-color: rgb(236, 235, 228);
   --second-background-color: rgb(28, 28, 28);
@@ -60,7 +60,6 @@ body {
 }
 
 footer {
-  background-color: var(--bg-color);
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
