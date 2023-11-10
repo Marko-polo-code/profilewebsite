@@ -1,3 +1,5 @@
+import { currentTheme } from './black-theme.js';
+
 // set up canvas
 
 const canvas = document.querySelector('canvas');
@@ -16,6 +18,17 @@ function random(min, max) {
 
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
+}
+
+// Function to update the canvas background color based on the current theme
+function updateCanvasBackgroundColor() {
+  // Get the canvas element
+  const canvas = document.querySelector('canvas');
+  const ctx = canvas.getContext('2d');
+
+  // Set the canvas background color based on the current theme
+  ctx.fillStyle = currentTheme === "black-theme" ? 'rgb(28, 28, 28)' : '#fff';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
 class Ball {
@@ -92,8 +105,7 @@ while (balls.length < 25) {
 }
 
 function loop() {
-   ctx.fillStyle = 'rgb(28, 28, 28, 0.25)';
-   ctx.fillRect(0, 0,  width, height);
+   updateCanvasBackgroundColor();
 
    for (const ball of balls) {
      ball.draw();
