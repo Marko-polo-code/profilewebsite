@@ -1,5 +1,5 @@
 .hero {
-  height: 782px;
+  height: 600px;
   padding: 150px 0px;
   display: flex;
   align-items: center;
@@ -13,7 +13,6 @@
 canvas {
   position: absolute;
   top: 0;
-  left: -170px;
   z-index: -1; /* Ensure the canvas is behind other elements */
 }
 
@@ -49,6 +48,7 @@ canvas {
 }
 
 @media screen and (max-width: 768px) {
+
   .hero {
     flex-direction: column;
     gap: 1.5rem;
