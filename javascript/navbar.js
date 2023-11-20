@@ -1,22 +1,24 @@
-// Nav hamburgerburger selections
 
-const burger = document.querySelector("#burger-menu");
-const ul = document.querySelector("nav ul");
-const nav = document.querySelector("nav");
+export function initializeBurger() {
+  // Nav hamburgerburger selections
 
-burger.addEventListener("click", () => {
-  ul.classList.toggle("show");
-  nav.classList.toggle("nav-height");
-  }
-);
+  const burger = document.querySelector("#burger-menu");
+  const ul = document.querySelector("nav ul");
+  const nav = document.querySelector("nav");
 
-// Close hamburger menu when a link is clicked
+  burger.addEventListener("click", () => {
+    ul.classList.toggle("show");
+    nav.classList.toggle("nav-height");
+    }
+  );
 
-// Select nav links
-const navLink = document.querySelectorAll(".nav-link");
+  // Close hamburger menu when a link is clicked
 
-navLink.forEach((link) =>
-  link.addEventListener("click", () => {
-    ul.classList.remove("show");
-  })
-);
+  const navLink = document.querySelectorAll(".nav-link");
+
+  navLink.forEach((link) =>
+    link.addEventListener("click", () => {
+      ul.classList.remove("show");
+    })
+  );
+}

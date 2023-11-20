@@ -29,3 +29,5 @@ function typeText() {
 }
 
 setTimeout(typeText, typingSpeed); // Start the typing animation
+
+export { typeText };
