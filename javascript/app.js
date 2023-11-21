@@ -1,4 +1,4 @@
-import {updateCanvasBackgroundColor } from './canvas.js'
+import { updateCanvasBackgroundColor } from './canvas.js'
 import { greeting } from './greeting.js';
 import { initializeNavbar } from './navbar.js';
 import { scrollToTop } from './scroll.js';
