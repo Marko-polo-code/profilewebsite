@@ -28,6 +28,4 @@ function typeText() {
   setTimeout(typeText, delay);
 }
 
-setTimeout(typeText, typingSpeed); // Start the typing animation
-
-export { typeText };
+export { typingSpeed, typeText };

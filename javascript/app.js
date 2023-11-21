@@ -1,13 +1,11 @@
-import { toggleTheme } from "./black-theme.js";
-import "./canvas.js";
-import { greeting } from "./greeting.js";
-import { initializeBurger } from './navbar.js';
+import {updateCanvasBackgroundColor } from './canvas.js'
+import { greeting } from './greeting.js';
+import { initializeNavbar } from './navbar.js';
 import { scrollToTop } from './scroll.js';
-import { typeText } from './typing.js';
+import { typingSpeed, typeText } from './typing.js';
 
-
-toggleTheme();
+updateCanvasBackgroundColor();
 greeting();
-initializeBurger();
+initializeNavbar();
 scrollToTop();
-typeText();
+setTimeout(typeText, typingSpeed);

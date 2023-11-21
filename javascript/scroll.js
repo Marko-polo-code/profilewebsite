@@ -8,6 +8,7 @@ function scrollToTop() {
     behavior: "smooth",
   });
 }
+
 scrollUp.addEventListener("click", scrollToTop);
 
 export { scrollToTop };

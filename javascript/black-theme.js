@@ -1,3 +1,5 @@
+import { updateCanvasBackgroundColor } from './canvas.js';
+
 const html = document.querySelector("html");
 let currentTheme = "white-theme";
 

@@ -1,5 +1,4 @@
-
-export function initializeBurger() {
+function initializeNavbar() {
   // Nav hamburgerburger selections
 
   const burger = document.querySelector("#burger-menu");
@@ -22,3 +21,5 @@ export function initializeBurger() {
     })
   );
 }
+
+export { initializeNavbar };

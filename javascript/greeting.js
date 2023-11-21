@@ -1,4 +1,4 @@
-export function greeting() {
+function greeting() {
   let count = -1; // Start at -1 to begin with the first greeting
   const wordsArray = [
     "Hola, mi nombre es Mark!",
@@ -18,3 +18,5 @@ export function greeting() {
     greetingElement.innerHTML = wordsArray[count % wordsArray.length];
   }, 8000);
 }
+
+export { greeting };
