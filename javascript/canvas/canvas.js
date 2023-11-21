@@ -1,4 +1,4 @@
-import { currentTheme } from './black-theme.js';
+import { currentTheme } from '../black-theme.js';
 import { Ball } from './Ball.js'
 
 // set up canvas
