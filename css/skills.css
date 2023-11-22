@@ -16,13 +16,7 @@
   padding: 1.25rem;
 }
 
-.first-set {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.second-set {
+.skills-set {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,11 +85,7 @@
     height: 100%;
   }
 
-  .first-set {
-    flex-direction: column;
-  }
-
-  .second-set {
+  .skills-set {
     flex-direction: column;
   }
 
