@@ -16,18 +16,69 @@
   padding: 1.25rem;
 }
 
+.first-set {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.second-set {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 11.875rem;
+  height: 11.25rem;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  margin: 10px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+  border-radius: 11px;
+}
+
+.flip-card-back {
+  background-color: #fff;
+  color: black;
+  border-radius: 11px;
+  transform: rotateY(180deg);
+}
+
 .icon {
   width: 11.875rem;
   height: 11.25rem;
 }
 
-.icon-card {
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
-  padding: 20px;
-  margin: 10px;
-}
 
 @media screen and (max-width: 720px) {
   .skills {
