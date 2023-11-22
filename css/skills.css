@@ -68,10 +68,16 @@
 }
 
 .flip-card-back {
-  background-color: #fff;
+  background-color: var(--secondary-color);
   color: black;
   border-radius: 11px;
   transform: rotateY(180deg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* This ensures text is centered horizontally within the container */
+  height: 100%; /* Ensure the container takes the full height of the card */
 }
 
 .icon {
