@@ -17,14 +17,14 @@
 }
 
 .first-set {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .second-set {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -89,6 +89,14 @@
 @media screen and (max-width: 720px) {
   .skills {
     height: 100%;
+  }
+
+  .first-set {
+    flex-direction: column;
+  }
+
+  .second-set {
+    flex-direction: column;
   }
 
   .icon {
