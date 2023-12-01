@@ -17,6 +17,10 @@ nav a:hover {
   border-bottom: 2px solid var(--secondary-color);
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav ul {
   display: flex;
   gap: 1.9rem;

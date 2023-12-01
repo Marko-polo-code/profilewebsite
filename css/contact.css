@@ -16,22 +16,20 @@
 }
 
 .button {
-  background-color: rgb(119 133 236);
+  background-color: #4687ff;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 25px 75px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
-  box-shadow: 3px, 3px;
   transition-duration: 0.4s;
-  box-shadow: 0 3px 10px var(--primary-shadow);
 }
 
 .button:hover {
-  background-color: rgb(86 104 232);
+  background-color: #2870f5;
   color: white;
 }
 
