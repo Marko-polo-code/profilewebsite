@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 90px;
 }
 
 .projects-title {
@@ -26,6 +27,18 @@
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
+
+  -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+
+  transform-origin:center;
+  transform:perspective(800px) rotateY(25deg);
+  transition:0.5s;
+}
+
+.project-container:hover {
+  opacity:0.3;
+  transform:perspective(800px)       rotateY(0deg);
+  opacity:1;
 }
 
 .project-container p {
@@ -55,5 +68,6 @@
 
   .project-container {
     width: 20.875rem;
+    margin-bottom: 175px;
   }
 }
